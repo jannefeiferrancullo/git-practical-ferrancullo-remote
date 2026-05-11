@@ -6,20 +6,22 @@
     <title>Document</title>
 </head>
 <body>
-    Hello, World! <br>
-    <script>
-        let id = "parag1" = "This is my practical examination";
-        getElementById("parag1");
-        let btn = querySelector("#btn1", "#btn2")
-        btn1.addEventListener("click").onclick = function() {
-        alert("Button 1 triggered");}
-        btn2.addEventListener("dblclick")
-        let onlick= "Red";
-        
-       
+    <p id = "parag1">This is my practical examination</p> <br>
+     <button id = "btn1">Welcome to IT10</button>
+     <button id = "btn2">Change Color</button>
+     <script>
+       let par1 = document.getElementById('parag1');
+       let button1 = document.querySelector("#btn1");
+        let button2 = document.querySelector("#btn2");
+       button1.addEventListener("click", function (){
+        alert ("Button 1 triggered")
+       });
+        button2.addEventListener("dblclick", function (){
+        parag1.style.color = "red";
+       });
 
+
+       
     </script>
-     <button id = "btn1" onlick = "alert">Welcome to IT10</button>
-     <button id = "btn2" onlick = "alert">Change Color</button>
 </body>
 </html>
